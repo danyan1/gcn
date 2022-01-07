@@ -1,3 +1,6 @@
+## see https://blog.csdn.net/yyl424525/article/details/100634211 or
+# https://www.codenong.com/cs106595594/ for code explanation
+
 from __future__ import division
 from __future__ import print_function
 
@@ -77,7 +80,6 @@ cost_val = []
 
 # Train model
 for epoch in range(FLAGS.epochs):
-
     t = time.time()
     # Construct feed dictionary
     feed_dict = construct_feed_dict(features, support, y_train, train_mask, placeholders)
